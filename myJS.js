@@ -20,23 +20,23 @@ block.addEventListener("click", function changeColor(){
         //change the background color using JS
         block.setAttribute("class", "teal-blue");
         
+         //Change the text of the color using the span id color-name
+        
         document.getElementById("color-name").textContent="#2D728F";
         
-
-
-
-        //Change the text of the color using the span id color-name
+    
 
     }
     else{ 
         //change the background color using JS
         block.setAttribute("class", "coral");
+        
+        //Change the text of the color using the span id color-name
+
         document.getElementById("color-name").textContent="#F08080";
         
 
-        //Change the text of the color using the span id color-name
-
-
+        
     }
 }); 
 
@@ -64,15 +64,7 @@ button.addEventListener("click", function convertTemp(){
     document.getElementById("c-output").innerHTML= cel;
 
      
-
-
-    /*if (fahr != ""){
-        cel = (fahr -32) * (5/9);
-        document.getElementById("c-output").innerHTML= cel;
-    } //else{
-        //document.getElementById("c-output").innerHTML= "Enter a value";
-    //}*/
-    
+ 
 
    
 
